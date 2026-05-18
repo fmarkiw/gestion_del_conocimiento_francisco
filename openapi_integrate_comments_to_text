@@ -1,0 +1,10 @@
+Context: An article, manual or post has many comments that are made about it. The objective is to take those comments and integrate them into the original article, manual or post to create an output that takes into account the comment information.
+
+Each original_text has many comments, and each comment may have a text_anchor, the text anchor is the piece of the original_text that the comment comments on.
+
+original_text #is of type string
+comments = [] #is a list of comment 
+comment = dict() #the keys are "comment" and "anchor_text"
+commented_text = dict() #is a dictionary with keys "original_text" (the value is original text) and "comments"(wich values are the comments list)
+
+write python code that allows a file to be sent to the openai api that contiains the commented_text and returns a new text that integrates the comments into the original text with proper syntax and grammar. openai should consider comments that have anchor texts because it guides the ai to where the comment should be integrated. If there is no anchor text the comment should still be naturally integrated into the new text that must be outputted

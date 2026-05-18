@@ -1,0 +1,23 @@
+1- Foros y comentarios:
+
+	-Propuesta: buscar por foros al estilo de stackoverflow o reddit por proyectos, recetas o sugerencias y separar los comentarios del comentario inicial.
+
+	-Problema: el comentario que arranca el hilo de conversación no suele tener una estructura similar al estilo de instructivo o guía que fue planteado para el caso de uso de extraer artículos de la wiki que vayamos a usar, además hay muchos comentarios de tipo meme o muy corto y poco conciso. Este tipo de comentarios o acotaciones escapan a lo que se esperaría en una empresa usando la wiki para gestionar conocimiento. Concretamente, no se espera que comentarios o correcciones en un sistema de gestión del conocimiento para una pyme tengan chistes, obsenidades, ridiculeces al estilo de un subreddit o comentarios de X o Youtube.
+
+	-Viabilidad: Baja
+
+2- Recetas e instructivos con comentarios inventados:
+
+	-Propuesta: buscar recetas o instructivos sencillos online y generar comentarios positivos, negativos, relevantes, irrelevantes o de mal gusto (incluyendo malas palabras). Una manera interesante de generar los comentarios de manera natural sería enviarle el artículo/nota/receta/instructivo leido por el celu a conocidos o amigos y pedirles a ellos que graben una serie de comentarios propios (como los nombrados anteriormente) en audios, después transcribir esos audios con algún software. Además muchas recetas vienen con sugerencias que pueden ser eliminadas del artículo principal e insertadas como comentarios para mejorar la calidad de las pruebas.
+	
+	-Problema: Si no se puede conseguir esos comentarios transcriptos habría que escribirlos manualmente (llevaría tiempo y reduciría la cantidad de artículos de prueba pero se podría hacer). Los artículos de prueba no se asemejarán a la complejidad que pueda llegar a tener un proceso en una empresa, con lo cuál habría que hacer pruebas más reales para validar el diseño.
+
+	-Viabilidad: Alta
+
+3- Tomar información generada por alumnos de la facultad:
+	
+	-Propuesta: Un ejercicio de facultad relacionado a algún tema práctico en alguna materia podría ser que un alumno describa una experiencia o arme un instructivo para realizar una determinada actividad o completar un proceso, después sus compañeros podrían hacer acotaciones y comentarios escritos sobre su producción y esos comentarios junto con la producción principal ser usadas para las pruebas de la wiki.
+
+	-Problema: Sería preferible hacer el esfuerzo de conseguir esa información con una prueba de concepto sólida completa.
+
+	-Viabilidad: Muy Baja

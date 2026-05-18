@@ -1,0 +1,40 @@
+{
+            "id": "74275b18-32c8-45ed-b020-805e236727fe",
+            "data": {
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "text": "comentario anclado al texto en el documento",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "documentId": "59a30f4c-6c29-49a7-8069-cfe87d9de507",
+            "parentCommentId": null,
+            "createdBy": {
+                "id": "1f32a4e6-e91f-400b-9b3d-cb915f8ec077",
+                "name": "Francisco Iv\u00c1n Markiw",
+                "avatarUrl": "https://outline-production-attachments.s3-accelerate.amazonaws.com/avatars/1f32a4e6-e91f-400b-9b3d-cb915f8ec077/d2509b1f-3fdb-47ef-b257-529cf7d1db11/78baf3f6afb4d0f0639573bb8e6e2076fd82103f9d71ee2d0900734272bba177",
+                "color": "#9E5CF7",
+                "role": "admin",
+                "isSuspended": false,
+                "createdAt": "2025-09-02T14:37:42.825Z",
+                "updatedAt": "2026-04-28T22:06:46.029Z",
+                "deletedAt": null,
+                "lastActiveAt": "2026-04-28T22:06:46.029Z",
+                "timezone": "America/Argentina/Buenos_Aires"
+            },
+            "createdById": "1f32a4e6-e91f-400b-9b3d-cb915f8ec077",
+            "resolvedAt": null,
+            "resolvedBy": null,
+            "resolvedById": null,
+            "createdAt": "2026-04-27T14:24:41.852Z",
+            "updatedAt": "2026-04-27T14:24:41.852Z",
+            "reactions": [],
+            "anchorText": "TEXTO CON COMENTARIO ANCLADO"
+        }

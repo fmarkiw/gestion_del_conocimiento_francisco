@@ -1,0 +1,67 @@
+Cómo montar una máquina virtual Linux en Windows paso a paso
+Edgar Otero
+Las máquinas virtuales son muy prácticas. Te ayudan a probar sistemas operativos, efectuar tareas con seguridad y probar modificaciones del sistema sin riesgos. Entre las
+combinaciones más habituales, encontramos la máquina virtual Linux en Windows. ¿Ya sabes cómo crear la tuya?
+En este artículo encontrarás una guía completa para generar una máquina virtual Linux en Windows de forma muy simple. Te explicamos el software que necesitas
+descargar y las configuraciones requeridas para que completes este proceso con éxito. ¡Prueba cualquier distribución Linux en Windows sin hacer cambios en tu PC!
+Índice de contenidos
+Montar una máquina virtual Linux en Windows paso a paso
+Máquina virtual Linux: pasos previos
+Creando la máquina virtual Linux en VirtualBox
+Instalación de Linux en la máquina virtual
+Máquina virtual Linux: el camino perfecto para los primeros pasosLos apartados que se incluyen en esta sección te ayudan a montar una máquina virtual Linux en Windows. En ellos, se ofrecen las indicaciones oportunas para que todo
+funcione como es debido.
+Máquina virtual Linux: pasos previos
+Lo primero de todo es preparar el equipo. Es bueno repasar los requisitos que te permiten disfrutar de un buen rendimiento al ejecutar Linux sobre Windows. Estas son
+nuestras recomendaciones:
+Procesador de dos núcleos, como mínimo. No es necesario que sea de última generación, aunque es recomendable llevar a cabo este proceso en máquinas más potentes y con
+buena refrigeración. Debe tener arquitectura x86 de 32 o 64 bits.
+Memoria RAM. Linux no es un sistema que precise demasiada memoria RAM, pero para un resultado óptimo opinamos que es ideal tener instalados por lo menos 8 GB.
+Versión de Windows. Este proceso es compatible con la mayoría de versiones de Windows. Nuestro consejo es que tengas instalado Windows 10 o Windows 11.
+Para ejecutar Linux sobre Windows vamos a aprovechar las capacidades de VirtualBox, una herramienta completamente gratuita.Así la descargas:
+Abre la página de descargas de VirtualBox.
+Haz clic en Windows Hosts.Descarga el ejecutable y úsalo para instalar VirtualBox.
+Una vez dispongas de esta utilidad en tu ordenador, es momento de bajar la ISO de Linux. Antes de nada, es necesario que elijas la distribución. Echa un vistazo al
+recopilatorio de mejores distribuciones Linux para escoger con acierto.
+Como es muy ligera, nosotros escogeremos Linux Mint. Hemos obtenido su ISO desde la sección de descargas de su página web oficial. El proceso es similar en el resto de
+distribuciones.
+Creando la máquina virtual Linux en VirtualBox
+Llegado a este punto, deberías tener a mano lo siguiente:
+VirtualBox instalado en tu ordenador.
+Una imagen de disco de la distribución Linux que deseas instalar.
+En caso afirmativo, continúa leyendo para saber cómo crear tu máquina virtual. En la ventana principal de VirtualBox, haz clic en Nueva.Aparecerá un asistente que te ayuda a producir la máquina virtual. Este es su aspecto:
+Estos son los parámetros que te recomendamos:
+Nombre: Linux Mint (o cualquier otro que consideres).
+Carpeta de máquina. Es posible alojar la máquina allá donde lo prefieras. Lo ideal es que sea en un disco duro rápido, preferiblemente un SSD que tenga mucho espacio
+libre.
+Tipo: Linux.
+Versión: Ubuntu (64-bit).
+Presiona en Next. Entonces, utiliza esta configuración:Tamaño de la memoria: Como mínimo 2 GB. Cuanto más le asignes, mejor será el rendimiento de la máquina virtual Linux. Ten en cuenta que Windows no debe quedarse
+sin memoria, por lo que deberás buscar un ajuste equilibrado dependiendo del total de RAM que tenga tu equipo.
+Después de hacer clic en Next, es momento de crear un disco duro virtual:Crear un disco duro virtual ahora. Esta es la opción recomendada para máquinas virtuales configuradas desde cero. Haz clic en Crear.
+VDI (VirtualBox Disk Image). Este formato es muy aconsejable para VirtualBox. Haz clic en Next.
+Tamaño del disco duro. La mejor opción es Reservado dinámicamente. Si deseas instalar muchas aplicaciones y tienes espacio libre, asigna un tamaño máximo de unos 50
+o 100 GB. Como mínimo, para Linux es necesaria una unidad de 20 GB. Haz clic en Crear para finalizar.
+Con estas tareas completadas, ya tienes tu máquina virtual Linux lista.
+Instalación de Linux en la máquina virtual
+Ha llegado el momento de instalar Linux dentro de la máquina virtual. Como si de un ordenador convencional se tratara, es requerido arrancar la máquina desde el archivo
+ISO. Esto sería el equivalente a un CD, DVD o USB de arranque. Para ello, selecciona la máquina virtual y haz clic en Configuración.En la ventana de ajustes, abre el apartado Almacenamiento y selecciona Vacío dentro de Controlador: IDE. En la sección Atributos, haz clic en el icono del CD. Luego, haz
+clic en Seleccionar un archivo de disco. Localiza la ISO que has bajado anteriormente y pincha en Aceptar para guardar los cambios.
+Presiona Iniciar en la pantalla principal de VirtualBox para comenzar la instalación de Linux. En el gestor de arranque GRUB, selecciona la primera entrada.Si todo ha salido bien, Linux se iniciará sin necesidad de instalación. A partir de este momento, cuentas con dos opciones:
+Usar Linux sin instalación. Esto es ideal para probar algunas funciones o echar un vistazo a programas concretos. Cada vez que pongas en marcha Linux desde la ISO,
+observarás como todos los cambios anteriores se han perdido.
+Instalar Linux en la máquina virtual. De este modo, cualquier modificación aplicada en el sistema se conservará.
+Para los que se decantan por la segunda opción, está listo el botón Install Linux Mint (varía según la distribución) en el escritorio.Para completar el proceso, simplemente sigue los pasos del asistente que aparece en pantalla. Después de seleccionar el idioma, instala Linux con los parámetros
+predeterminados.Al terminar, apaga la máquina virtual, ve a la configuración de la máquina virtual y abre la sección Almacenamiento. De forma parecida a como hiciste para agregar la ISO,
+elimina el CD de arranque para que tu máquina virtual arranque directamente desde el almacenamiento.
+Máquina virtual Linux: el camino perfecto para los primeros pasos
+Montar una máquina virtual Linux instalada en Windows es un modo ideal para dar los primeros pasos con este sistema operativo. Nada de lo que hagas dentro de la
+máquina virtual tendrá efectos en tu equipo y conservarás el sistema operativo de Microsoft intacto.
+Y tú, ¿ya has probado una máquina virtual Linux en Windows? ¿Qué consejos darías a otros usuarios que están pensando en hacerlo? ¡Te esperamos en la sección de
+comentarios!
+Edgar Otero
+Técnico de sistemas informáticos. Experto en tocar botones, instalar aplicaciones y reconfigurar mi vida digital cada cierto tiempo. Explico experimentos y otros trucos
+utilizando solamente un teclado.
+Los datos de carácter personal que nos facilite mediante este formulario quedarán registrados en un fichero de Miguel Ángel Navas Carrera, con la finalidad de gestionar los
+comentarios que realizas en este blog. La legitimación se realiza a través del consentimiento del interesado. Si no se acepta no podrás comentar en este blog. Puedes consultar
+Política de privacidad. Puede ejercitar los derechos de acceso, rectificación, cancelación y oposición en info@profesionalreview.com
